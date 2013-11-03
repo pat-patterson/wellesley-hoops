@@ -1,0 +1,7 @@
+; $Id$
+name = Limit Terms
+description = A module to allow terms in a vocabulary to be omitted for specific content types
+package = Custom modules
+core = 7.x
+
+dependencies[] = taxonomy

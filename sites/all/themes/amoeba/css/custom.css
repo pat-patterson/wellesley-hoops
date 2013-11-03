@@ -1,0 +1,737 @@
+/* Add Your Style Tweaks/Additions Here */
+
+
+#site-logo img {
+	margin-top: -13px;	
+}
+div.width33.user3 {
+    width: 20%;
+}
+
+.width33 {
+    width: 40%;
+}
+
+.stButton .stLarge {
+    display: inline-block;
+    height: 32px;
+    position: relative;
+    width: 32px;
+}
+
+th, thead th, tbody th {
+    background: none repeat scroll 0 0 maroon;
+    border-bottom: medium none;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 1em;
+    text-align: left;
+}
+
+.breadcrumb a {
+    color: #CCCCCC;
+}
+
+.breadcrumb {
+    border-bottom: 1px solid #FFFFFF;
+    color: #666;
+    font-family: 'Hammersmith One',Arial,Helvetica,sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 10px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+}
+
+h4 {
+	font-family: 'Hammersmith One',Arial,Helvetica,sans-serif;
+}
+
+.front .date-display-single {
+	color: #fff;	
+}
+
+.date-display-single {
+	color: #E44638;	
+}
+
+.sidebar-second-inner {
+    background: none;
+    padding-top: 0;
+}
+
+.sidebar-first-inner, .sidebar-second-inner {
+    margin: 0 10px;
+}
+
+.sidebar-second-inner .region-sidebar-second {
+    background: /* url("../images/style1/sidebar-second-bottom.png") repeat-x scroll center bottom transparent */ none;
+    padding-bottom: 5px;
+}
+
+.front .sidebar-second-inner .block-inner {
+    background: /* url("../images/style1/sidebar-second-bg.png") repeat scroll 0 0 transparent;*/ black;
+    border-bottom: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+.sidebar-second-inner .block-inner {
+    background: /* url("../images/style1/sidebar-second-bg.png") repeat scroll 0 0 transparent;*/ green;
+    border-bottom: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+.sidebar-second h3 {
+	font-family: 'Bevan','Times New Roman',Times,serif;
+	
+}
+
+.front .sidebar-second a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.front .sidebar-second h3 {
+    font-family: 'Bevan','Times New Roman',Times,serif;
+    font-size: 1.8em;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.front #block-views-full_event_calendar-block_2 {
+	text-align: center;
+}
+
+.front span.date-display-single {
+	font-size: 1.4em;
+}
+
+.front .views-field-field-opponent .views-label-field-opponent {
+	font-family: 'Bevan','Times New Roman',Times,serif;
+	font-size: 1.6em;
+	margin: 5px 0;
+}
+
+.front .views-field-field-opponent .field-content {
+	font-family: 'Bevan','Times New Roman',Times,serif;
+	font-size: 1.8em;
+	margin: 5px 0;
+}
+
+/********************************
+      Standings Block
+********************************/
+
+.front table#standings {
+    background: none repeat scroll 0 0 #800d0d;
+    border-bottom: medium none maroon;
+    color: white;
+}
+
+.front table#standings thead {
+	text-align: center;
+}
+
+.front table#standings th {
+	text-align: center;
+}
+
+.front table#standings tr {
+	background: gray;
+	border: none;
+}
+
+.front table#standings td {
+	text-align: center;
+}
+
+.front table#standings tr, tr.even, tr.odd {
+    text-shadow: 0;
+    font-weight: bold;
+}
+
+#block-service_links-service_links {
+    margin-bottom: 10px;
+    margin-top: -12px;
+}
+
+#block-service_links-service_links h3.title {
+	display: none;
+	text-align: center;
+}
+
+body {
+    background: none repeat scroll 0 0 maroon;
+    color: #202018;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.legend {
+	padding: 4px;
+	border-radius: 3px;
+	display: block;
+	width: 125px;
+	text-align: center;
+	color: #fff;
+}
+
+.varsity {
+	background: #BE0002;
+}
+
+.jv {
+	background: #FF6172;
+}
+
+.freshman {
+	background: #00C205;
+}
+
+.eighthgrade {
+	background: #0F7600;
+}
+
+
+/******************************************************
+        CUSTOM-FITTING: ABOUT MENU
+*******************************************************/
+
+.header-wrapper-inner {
+    padding: 0 10px;
+    position: relative;
+}
+
+#about-menu {
+	position: relative;
+    left: 150px;
+    top: 0px;
+    font-size: 1.2em;
+}
+
+#about-menu ul {
+    /*float: right;
+    position: relative;
+    top: 7px;*/
+}
+
+#about-menu ul.menu li ul {
+    background: none repeat scroll 0 0 #222222;
+    border: 2px solid #F7F6BE;
+    box-shadow: 2px 2px 2px #333333;
+    left: -999em;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+    z-index: 100;
+}
+
+#about-menu h3 {
+	display:none;
+}
+
+#about-menu ul.menu li {
+    float: left;
+    padding: 0px 20px;
+    /* border-left: 1px dotted #fefefe; */
+    background: black;
+}
+
+#about-menu ul.menu li.first {
+    border-bottom-left-radius: 5px;
+}
+
+#about-menu ul.menu li.last {
+	border-bottom-right-radius: 5px;
+}
+
+#about-menu ul.menu li a {
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Bevan','Times New Roman',Times,serif;
+    font-size: 0.7em;
+    /* text-transform: uppercase; */
+    font-weight: normal;
+    padding: 0;
+    text-shadow: 1px 1px #111111;
+}
+
+/* ul.menu, ul.menu li, li.expanded, li.collapsed, li.leaf {
+    background: none repeat scroll 0 50% transparent;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+*/
+
+#about-menu ul.menu li a:hover {
+	color: #ccc;
+}
+
+#about-menu ul.menu li a.active {
+	color: #fff;
+	font-style: italic;
+}
+
+/******************************************************
+        CUSTOM-FITTING: MAIN MENU
+*******************************************************/
+#main-menu {
+    padding: 0;
+    position: relative;
+    top: -48px;
+}
+
+#main-menu ul {
+    float: right;
+    position: relative;
+    top: 7px;
+}
+
+#main-menu ul.menu li ul {
+    background: none repeat scroll 0 0 #222222;
+    border: 2px solid #F7F6BE;
+    box-shadow: 2px 2px 2px #333333;
+    left: -999em;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+    z-index: 100;
+}
+
+#main-menu ul.menu li ul ul {
+    margin: -9px 0 0 170px;
+    }
+    
+    
+/******************************************************
+        CUSTOM-FITTING: HOME
+*******************************************************/
+
+body.page-teams-varsity-statistics td {
+	text-align: center;
+}
+
+body.page-teams-varsity-statistics td.views-field-title {
+	text-align: left;
+}
+
+div.view-frontpage {
+	background: #FEFEFE;
+	padding: 10px;
+}
+
+div.view-frontpage div.views-row {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.views-field-field-tags {
+	margin-top: 10px;
+}
+
+div.view-frontpage .views-field-nid span a {
+	padding: 5px; background: maroon; color: #fff;
+}
+
+div.view-frontpage .view-footer a {
+	padding: 5px; border:solid;background:#FEFEFE;
+}	
+
+div.view-team-stats-cumulative div.view-content {
+	padding-top: 19px;
+}	
+	
+/******************************************************
+        CUSTOM-FITTING: SIDEBAR
+*******************************************************/
+
+div.view-upcoming-games thead th {
+	background: maroon;
+}
+
+.sidebar-second-inner .block {
+    border-bottom: 0;
+}
+
+div.tweets-pulled-listing div.tweet-authorphoto img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px dotted #000000;
+    padding: 5px;
+}
+
+div.tweets-pulled-listing .tweet-author a {
+    font-weight: bold;
+    color: maroon;
+}
+
+div.tweets-pulled-listing .tweet-author a {
+    font-weight: bold;
+}
+
+.sidebar-first-inner .block-inner {
+    border-bottom: 1px solid #fefefe;
+    padding-bottom: 10px;
+}
+
+/******************************************************
+        CUSTOM-FITTING: FOOTER
+*******************************************************/
+
+#bottom-user-regions {
+    background: url("../images/style1/bottom-regions-bg.png") repeat-x scroll center top maroon;
+    color: #F0E0E0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    padding: 25px 0;
+    text-shadow: -1px -1px #111111;
+}
+
+#bottom-user-regions a {
+	color: PapayaWhip;
+}
+
+/******************************************************
+        CUSTOM-FITTING: PLAYERS
+*******************************************************/
+
+div#feature {
+	width: 525px;
+	height: 308px;
+	float: left;
+}
+
+div#feature img {
+	float: left;
+	padding: 2px;
+}
+
+div#main_name {
+    background: url("/sites/all/themes/amoeba/images/main_name_bg.png") no-repeat scroll left top transparent;
+    float: right;
+    right: 0;
+}
+
+div#player_season_stats {
+    background: url("/sites/all/themes/amoeba/images/main_footer_bg.png") no-repeat scroll left bottom transparent;
+    bottom: -269px;
+    color: #FFFFFF;
+    left: 0;
+    padding: 10px;
+    position: relative;
+    font-size: 1.2em;
+}
+
+h1#player_name {
+	color:#fff;
+	font-size: 16px;
+	padding: 13px 0 10px 13px;
+	float: left;
+}
+
+span#player_jersey {
+	padding-left: 5px;
+}
+
+span#player_main_position {
+    border-left: 2px solid #FFFFFF;
+    padding: 0 10px 0 7px;
+}
+
+span#player_season_stats {
+	
+}
+
+div#player-personal {
+	float: left;
+    border-left: 2px solid #ccc;
+    padding: 0 0 0 23px;
+    width: 390px;
+    font-size: 1.2em;
+}
+
+div#player-personal td {
+	vertical-align: top;
+}
+
+body.node-type-players div.content-bottom {
+	clear:both;
+	margin-top: 100px;
+}
+
+div.view-player-card th, div.view-player-card td {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+div.view-varsity-roster div.views-field-title span a {
+	font-family: 'Bevan','Times New Roman',Times,serif;
+    font-size: 1.4em;
+}
+/******************************************************
+        CUSTOM-FITTING: COLORBOX
+*******************************************************/
+
+#cboxWrapper .region-content {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.field-name-field-directions {
+    display: none;
+}
+
+/******************************************************
+         CALENDAR CUSTOMIZATION
+*******************************************************/
+
+.views-exposed-form .form-item, .views-exposed-form .form-submit {
+    display: inline;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+    border-radius: 2px 5px 2px 5px;
+    font-size: 0.9em;
+    margin-top: 3.2em;
+    padding: 2px 6px;
+}
+
+/******************************************************
+         HOME PAGE CUSTOMIZATION
+*******************************************************/
+
+#site-logo {
+    float: left;
+    padding-right: 2px;
+    padding-top: 22px;
+}
+
+#slideshow .views-field-body {
+    border-bottom: 1px solid #E5E5E5;
+    border-top: 1px solid #FFFFFF;
+    color: #3C1818;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    margin-left: 575px;
+    margin-right: 30px;
+    padding-top: 5px;
+    text-shadow: 1px 1px #FFFFFF;
+}
+
+#slideshow .views-field-title {
+    border-bottom: 1px solid #E5E5E5;
+    margin-left: 575px;
+    padding-bottom: 5px;
+}
+
+#slideshow .views-field-view-node {
+    border-top: 1px solid #FFFFFF;
+    margin-left: 575px;
+    padding-top: 10px;
+}
+
+#slideshow .views-field-view-node a {
+    background: none repeat scroll 0 0 #E44638;
+    color: #FFF;
+    display: inline-block;
+    font-size: 1.4em;
+    line-height: 0.8em;
+    padding: 10px;
+}
+
+#slideshow .views-field-field-image img {
+    border-color: #E5E5E5;
+    border-right: 1px solid #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    margin-right: 20px;
+}
+
+#top-user-regions .user1 .user-region-inner .block-inner {
+    background-image: url(http://wellesleybasketball.com/sites/all/themes/amoeba/images/wbb-bg-user1c.jpg);
+    background-color: #fff;
+    background-position: top right;
+    background-repeat: repeat-x;
+    border: 1px solid #FFFFFF;
+    color: white;
+    padding: 20px 10px 10px;
+}
+
+div.user1 p {
+	width:215px;
+}
+
+/*#top-user-regions .user1 .user-region-inner .block-inner .content, #top-user-regions .user1 .user-region-inner .block-inner .block-title {
+    background: none repeat scroll 0 0 black;
+    opacity: 0.9;
+    padding: 9px;
+    width: 94%;
+}*/
+
+#top-user-regions .user2 .user-region-inner .block-inner .content, #top-user-regions .user2 .user-region-inner .block-inner .block-title {
+    /* background: none repeat scroll 0 0 black;
+    opacity: 0.8;
+    padding: 9px;
+    width: 94%; */
+}
+
+#top-user-regions .user2 .user-region-inner .block-inner {
+    /* background-image: url(http://wellesleybasketball.com/sites/all/themes/amoeba/images/wbb-bg-user4.png);*/
+    background-image: url(http://wellesleybasketball.com/sites/all/themes/amoeba/images/wells_bg.gif);
+    background-color: #BA1417;
+    background-position: top right;
+    background-repeat: repeat-x;
+    border: 1px solid #FFFFFF;
+    color: white;
+    padding: 20px 10px 10px;
+}
+
+#top-user-regions .user3 .user-region-inner .block-inner a, #top-user-regions .user2 .user-region-inner .block-inner a, #top-user-regions .user1 .user-region-inner .block-inner a {
+	color: silver;
+	border-bottom: 1px dotted silver;
+}
+
+#top-user-regions .user3 .user-region-inner .block-inner a:hover, #top-user-regions .user2 .user-region-inner .block-inner a:hover, #top-user-regions .user1 .user-region-inner .block-inner a:hover {
+	border-bottom: 1px dotted white;
+}
+
+#top-user-regions .user3 .user-region-inner .block-inner {
+    background-image: url(http://wellesleybasketball.com/sites/all/themes/amoeba/images/wells_bg.gif);
+    background-color: #BA1417;
+    background-position: top right;
+    background-repeat: repeat-x;
+    border: 1px solid #FFFFFF;
+    color: white;
+    padding: 20px 10px 10px;
+}
+
+
+#middle-wrapper {
+    background: #f1f1f1;
+}
+
+
+#top-user-regions .user3 .user-region-inner .block-inner h3, #top-user-regions .user2 .user-region-inner .block-inner h3, #top-user-regions .user1 .user-region-inner .block-inner h3 {
+    text-align: left;
+    padding: 9px 0 0 0;
+    color: #BA1417;
+    font-size: 1.8em;
+}
+
+#top-user-regions .user3 .user-region-inner .block-inner span.sponsor {
+	clear:both;
+	margin-top: -21px;
+	color: #666;
+	float:left;
+}
+
+#top-user-regions .user2 .user-region-inner .block-inner span.tagline {
+	clear:both;
+	margin-top: -21px;
+	color: #666;
+	float:left;
+}
+
+#top-user-regions .user1 .user-region-inner .block-inner span.tagline, #top-user-regions .user2 .user-region-inner .block-inner span.tagline, #top-user-regions .user3 .user-region-inner .block-inner span.tagline {
+	clear:both;
+	margin-top: -21px;
+	margin-bottom: 21px;
+	color: #666;
+	float:left;
+}
+
+#top-user-regions .user3 .user-region-inner .block-inner div.tagline {
+    color: #666666;
+    margin-top: -19px;
+    padding: 0;
+}
+
+#top-user-regions .user3 .user-region-inner .block-inner div.block-content {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.teaser {
+	background: #FEFEFE;
+	border-bottom: #FEFEFE;
+	border-right: #FEFEFE;
+}
+
+.teaser .content {
+	text-shadow: 1px 1px #E5E5E5;
+}
+
+
+/******************************************************
+         MENU/HEADER CUSTOMIZATION
+*******************************************************/
+
+.breadcrumb-inner {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 20px 0;
+}
+
+.breadcrumb {
+    border-bottom: 1px solid #fefefe;
+}
+
+#header-wrapper {
+    background: url("../images/style1/header-bg.png") repeat-x scroll 0 0 #FFF;
+    height: 95px;
+}
+
+#main-menu ul.menu li a {
+    color: #FFF;
+    display: block;
+    font-family: 'Bevan','Times New Roman',Times,serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    padding: 16px 10px 0;
+    text-shadow: 1px 1px #111111;
+}
+
+#main-menu ul.menu li li a, #main-menu ul.menu li li a.active {
+    color: #F7F6BE;
+    font-size: 1em;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 15px;
+    width: 170px;
+}
+
+/******************************************************
+         TAG CUSTOMIZATION
+*******************************************************/
+
+h1, h2 {
+    color: #BA1417;
+    font-family: 'Bevan','Times New Roman',Times,serif;
+}
+
+h1 a, h2 a {
+    color: darkRed;
+}
+
+.teaser-inner {
+    padding: 10px;
+}
+
+tr, tr.even, tr.odd {
+    background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 0;
+    text-shadow: 1px 1px #FFFFFF;
+}

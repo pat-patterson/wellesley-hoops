@@ -1,0 +1,95 @@
+<?php
+
+// $Id$
+/**
+ * @file
+ * This module is provided so that a large vocabulary can have individual
+ * terms marked as "excluded" for specific content types.
+ * *
+ * @author Pat Patterson - pat@standard12.com
+ */
+
+/**
+ * Implementation of hook_help().
+ *
+ * @param $path A Drupal menu router path the help is being requested.
+ * @param $arg An array that corresponds to the return of the arg() function.
+ * @return A localized string containing the help text.
+ */
+function limitterms_help($path, $arg) {
+  $output = '';
+  switch ($path) {
+    case "admin/help#limitterms":
+      $output = 'To use this module, edit a specific vocabulary and check the appropriate box';
+      break;
+  }
+  return $output;
+}
+
+/**
+ * Implementation of hook_menu().
+ *
+ * @return An array of menu items.
+ */
+function limitterms_menu() {
+  $items = array();
+
+  $items['admin/settings/limitterms'] = array(
+    'title' => 'Limit Terms',
+    'description' => 'This page will be where you can choose which vocabularies to limit',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('limitterms_admin_settings'),
+    'access arguments' => array('administer limit terms'),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'includes/limitterms.admin.inc',
+  );
+
+  return $items;
+}
+
+/**
+ * Implementation of hook_form_alter().
+ */
+function limitterms_form_alter(&$form, $form_state, $form_id) {
+  //dpm($form_id);
+  //switch ($form_id) {
+    //case 'library_resource_node_form':
+      //dpm($form['taxonomy']);
+      //foreach($form['taxonomy'] as $vid => $vocab) {
+        //if (is_array($vocab)) {
+          //dpm($vocab);
+          //$excludedterms = variable_get('limitterms-library_resource-' . $vid, array());
+          //if (is_array($excludedterms)) {
+            //foreach ($excludedterms  as $excludedterm) {
+              // dpm($vocab['#options']);
+              //foreach ($vocab['#options'] as $tid => $term) {
+                //dpm($term->option);
+                //if (!empty($term->option[$excludedterm])) {
+                  //dpm('removal of ' . $excludedterm);
+                  //unset($form['taxonomy'][$vid]['#options'][$tid]);
+                //}
+              //}
+            //}
+          //}
+        //}
+      //}
+      //break;
+    //default:
+      
+      //break;
+  }
+}
+
+/**
+ * Addition to $form['#submit'] for taxonomy_form_term
+
+
+function limitterms_taxonomy_form_term_submit(&$form,$form_state) {
+  //dpm($form_state);
+  $limitterms = variable_get('limitterms_content_types', array());
+  foreach ($form_state['values']['limitterms'] as $limited) {
+    $limitterms[$limited] = array($form_state['values']['tid']);
+  }
+  variable_set('limitterms_content_types',$limitterms);
+}
+*/

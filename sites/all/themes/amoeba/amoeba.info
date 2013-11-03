@@ -1,0 +1,39 @@
+name = Amoeba for Drupal 7.x
+description = Theme by DrupalShark.com (default).
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+scripts[] = js/scripts.js
+scripts[] = js/superfish.js
+scripts[] = js/jquery-glowing.js
+scripts[] = js/jquery.color.js
+
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[highlighted] = Highlighted
+regions[content_top] = Content Top
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[footer] = Footer
+regions[main_menu] = Main Menu
+regions[about_menu] = About Menu
+regions[slideshow] = Slideshow
+regions[user1] = User 1
+regions[user2] = User 2
+regions[user3] = User 3
+regions[user4] = User 4
+regions[user5] = User 5
+regions[user6] = User 6
+regions[user7] = User 7
+regions[user8] = User 8
+
+settings[style] = 0
+settings[layout] = 0
+settings[fixedwidth] = 960	
+settings[leftwidth] = 200
+settings[rightwidth] = 330
+settings[font_size] = '0.8'
+settings[font_family] = 'Georgia, "Times New Roman", Times, serif'
+settings[breadcrumb] = 1
+settings[css] = 0
